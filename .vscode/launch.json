@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug - Jasper",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Jasper_2f11e222",
+            "args": "ManicMiner.z80"
+        }
+    ]
+}
