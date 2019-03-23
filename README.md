@@ -1,6 +1,8 @@
 # Jasper
 Java ZX Spectrum Emulator
 
+![Jasper Manic Miner Screenshot](https://github.com/Arlorean/Jasper/raw/master/ManicMiner.png "Jasper Manic Miner Screenshot")
+
 ## Updated (23rd March 2019)
 
 Without Changing the original source code in any way I added some classes from [Java Expert Solutions](http://www.webbasedprogramming.com/Java-Expert-Solutions/) [Chapter 13 - Running Applets as Applications](http://www.webbasedprogramming.com/Java-Expert-Solutions/ch13.htm) by Mark Wutka. These replace the [appletviewer](https://www.oracle.com/technetwork/java/javase/11-relnote-issues-5012449.html#JDK-8200146) which was removed in Java 11.
@@ -22,8 +24,6 @@ Without Changing the original source code in any way I added some classes from [
 e.g. To load the **ManicMiner.z80** snapshot, use this command:
 
 ```java Main ManicMiner.z80```
-
-![Jasper Manic Miner Screenshot](https://github.com/Arlorean/Jasper/raw/master/ManicMiner.png "Jasper Manic Miner Screenshot")
 
 ## Background
 
