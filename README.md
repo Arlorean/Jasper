@@ -5,6 +5,8 @@ Java ZX Spectrum Emulator
 
 Without Changing the original source code in any way I added some classes from [Java Expert Solutions](http://www.webbasedprogramming.com/Java-Expert-Solutions/) [Chapter 13 - Running Applets as Applications](http://www.webbasedprogramming.com/Java-Expert-Solutions/ch13.htm) by Mark Wutka. These replace the [appletviewer](https://www.oracle.com/technetwork/java/javase/11-relnote-issues-5012449.html#JDK-8200146) which was removed in Java 11.
 
+**NOTE:** This may change the license from MIT if you include those source files. I'm unsure of the license at this point.
+
 ## How to build
 
 1. Install the [Java SE Development Kit 11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html).
