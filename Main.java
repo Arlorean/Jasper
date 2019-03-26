@@ -1,7 +1,9 @@
+
 // http://www.webbasedprogramming.com/Java-Expert-Solutions/ch13.htm
 // (c) Mark Wutka
 
 import java.awt.*;
+import java.awt.event.*;
 import java.io.File;
 import java.applet.*;
 
@@ -40,6 +42,14 @@ public class Main {
         // init method, it may fail unless there is a frame already created and
         // showing.
         appletFrame.show();
+
+        // Close the applet frame when the window close button is pressed.
+        appletFrame.addWindowListener( new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent we) {
+                System.exit(0);
+            }
+        } );
 
         // Create an instance of the applet
         Applet myApplet = new Jasper();
